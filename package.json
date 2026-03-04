@@ -1,15 +1,12 @@
-module.exports = {
-    sets: {
-        desktop: {
-            files: 'tests/desktop'
-        }
-    },
-
-    browsers: {
-        chrome: {
-            desiredCapabilities: {
-                browserName: 'chrome' // this browser should be installed on your OS
-            }
-        }
-    }
-};
+{
+  "name": "hermione-sample",
+  "version": "1.0.0",
+  "description": "Sample Hermione test project for TeamCity",
+  "scripts": {
+    "test": "hermione"
+  },
+  "devDependencies": {
+    "hermione": "^7.0.0",
+    "chai": "^4.3.7"
+  }
+}
